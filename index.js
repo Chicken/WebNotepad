@@ -7,13 +7,14 @@ const bcrypt = require("bcrypt");
 const josh = require("@joshdb/core");
 const provider = require("@joshdb/sqlite");
 const { sessions, users } = josh.multi([ "sessions", "users" ], { provider });
+const { port } = require("./config.json");
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cookieparser());
 app.use(helmet());
 
-app.listen(8080, () => {
+app.listen(port, () => {
     console.log("Server online.");
 });
 
@@ -106,6 +107,7 @@ app.post("/api/signup", async (req, res) => {
             expires: exp,
             user: name
         });
+        console.log(`New user "${name}" created.`);
         res
             .cookie("sid", sid, {
                 maxAge: exp,
