@@ -132,3 +132,12 @@ button[type=submit] {
     width: 45%;
     font-size: 0.9em;
 }
+
+a, a:link, a:visited {
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+}
+
+a:hover, a:active {
+    color: rgb(225, 225, 225);
+}
