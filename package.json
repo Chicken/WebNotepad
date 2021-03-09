@@ -1,0 +1,20 @@
+{
+    "name": "webnotepad",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Antti <antti@antti.codes>",
+    "license": "MIT",
+    "scripts": {
+        "start": "node .",
+        "lint": "eslint . --fix"
+    },
+    "dependencies": {
+        "@joshdb/core": "^1.1.3",
+        "@joshdb/sqlite": "^1.1.4",
+        "bcrypt": "^5.0.0",
+        "cookie-parser": "^1.4.5",
+        "express": "^4.17.1",
+        "helmet": "^4.4.1",
+        "nanoid": "^3.1.20"
+    }
+}

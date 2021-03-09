@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script defer src="script.js"></script>
+        <link rel="stylesheet" href="../style.css">
+        <title>WebNotepad</title>
+    </head>
+    <body>
+        <form method="POST" action="/api/login">
+            <h1 class="formtitle">Login</h1>
+            <div id="error"></div>
+            <p class="label">Username</p>
+            <input type="text" placeholder="Enter username" name="name" required>
+            <p class="label">Password</p>
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <button type="submit">Log in</button> <a href="/"><button type="button">Cancel</button></a>
+        </form>
+    </body>
+</html>
