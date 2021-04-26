@@ -9,7 +9,7 @@
         "lint": "eslint . --fix"
     },
     "dependencies": {
-        "@joshdb/core": "^1.2.2",
+        "@joshdb/core": "^1.2.3",
         "@joshdb/sqlite": "^1.1.8",
         "bcrypt": "^5.0.0",
         "cookie-parser": "^1.4.5",
