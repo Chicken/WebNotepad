@@ -9,10 +9,10 @@
   dependencies:
     lodash "^4.17.20"
 
-"@joshdb/sqlite@^1.1.8":
-  version "1.1.8"
-  resolved "https://registry.yarnpkg.com/@joshdb/sqlite/-/sqlite-1.1.8.tgz#54a3238018ba173ed07f14aede8a170aa771932d"
-  integrity sha512-BnpXG7w7vsmYo+I/bTNEDHM0n+gkj2MOcRgONBnhqXq63qvS3cWY0q5tsbPb248nIleEYuiTkFdybcyD1QGPsg==
+"@joshdb/sqlite@^1.1.9":
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/@joshdb/sqlite/-/sqlite-1.1.9.tgz#b369ecfa1d5f16c9c006f3a6838407b7891d5dee"
+  integrity sha512-0RA9MajDsqQGx6EDhBe8bwjc3iecedUAC+oPQtp3sCrMqe0Eed3Yptv80S3NmldT3vVgb+r3FO4V/vtSkjzCyQ==
   dependencies:
     better-sqlite3 "^7.1.0"
     lodash "^4.17.15"
