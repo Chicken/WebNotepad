@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@joshdb/core@^1.2.4":
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/@joshdb/core/-/core-1.2.4.tgz#c76213b3b3579bf0b46900e6fdca82327b5da8ca"
-  integrity sha512-mTrhxA/GIV998hzlIk9dgigGxFfTzmnj99TSbDdhl21Gs6wkwk4FwES1ADoeaV97Yl/ypz3ZCUsnIhUWDsZI7Q==
+"@joshdb/core@^1.2.6":
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/@joshdb/core/-/core-1.2.6.tgz#db1095e4c837f347db9db33817c4df2d7be3884a"
+  integrity sha512-EZ7rfRqqOWdClO4X9DNX+0y3eW29I2Y6JKtbv+Yo6AN+FndI4sJzgDvdV2gSzZ3oI8UDghQ3Df9HJ4aMkGuAPw==
   dependencies:
     lodash "^4.17.20"
 
